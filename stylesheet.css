@@ -1,0 +1,100 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+body {
+  background-color: #8d99ae;
+  color: #e94661;
+}
+.card,.card1 {
+  margin: 20px auto 0;
+  width: 40%;
+  text-align: center;
+  padding: 40px 35px;
+  border-radius: 20px;
+  background-color:#2b2d42;
+}
+.card1{
+  margin: 20px auto 0;
+}
+.search{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.input{
+  border:0;
+  outline: 0;
+  border-radius: 20px;
+  padding: 10px 15px;
+  color: #121212;
+  font-size: 20px;
+  font-weight: 600;
+  background-color: #8d99ae;
+  width: 75%;
+}
+.addBtn{
+background-color: #8d99ae;
+border: 0;
+border-radius: 20px;
+padding: 10px 15px;
+width: 20%;
+font-size: 30px;
+font-weight: 600;
+color: #d90429;
+}
+.listContainer{
+  width:100%;
+  display: flex;
+  flex-direction: column;
+}
+.list{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 10px 10px 20px;
+  margin-top: 20px;
+  width: 100%;
+  background-color: #8d99ae;
+  gap:10px;
+  border-radius: 20px;
+}
+.item{
+  width: 65%;
+}
+.item h1{
+  font-size: 30px;
+  text-align: left;
+  word-wrap: break-word;
+  color: #121212;
+}
+.list button{
+  font-size: 20px;
+  background-color:#e94661;
+  border-radius: 16px;
+  padding: 15px;
+  color: #ffffff;
+  border: 0;
+  width: 30%;
+}
+@media screen and (max-width:800px) {
+  .card , .card1{
+    width: 90%;
+    margin: 10px auto 0;
+    padding: 15px;
+  }
+  .input{
+    width: 70%;
+  }
+  .list button{
+    width: 60%;
+    text-align: center;
+  }
+  .addBtn{
+    width: 25%;
+    font-size: 20px;
+    padding: 10px;
+  }
+}
